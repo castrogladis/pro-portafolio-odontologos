@@ -85,6 +85,12 @@
 *::after {
   box-sizing: border-box;
 }
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+  z-index: 1000;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
