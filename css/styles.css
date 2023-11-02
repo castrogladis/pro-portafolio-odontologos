@@ -1943,7 +1943,10 @@ progress {
     display: none;
   }
 
-.col-lg-4 .col-sm-6.item-4 .item5 .item-6 {
+.col-lg-4 .col-sm-6 .mb-4 .mb-lg-0 .item-4 {
+  display: none;
+}
+.item-4 {
   display: none;
 }
 
