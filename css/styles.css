@@ -603,6 +603,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 .img-thumbnail {
@@ -1940,6 +1941,10 @@ progress {
   }
   .portfolio-item-4, .portfolio-item-5, .portfolio-item-6 {
     display: none;
+  }
+
+  .img-fluid {
+    border-radius: 5px;
   }
 }
 @media (max-width: 767.98px) {
@@ -7593,6 +7598,7 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -10845,7 +10851,7 @@ p {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 1rem 0 ;
 }
 
 .page-section-historias{
@@ -11036,6 +11042,10 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
+}
+
+#portfolio .portfolio-caption-heading {
+  color: var(--bs-code-color);
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
